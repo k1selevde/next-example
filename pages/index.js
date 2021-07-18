@@ -1,14 +1,12 @@
-import A from "../components/A";
+import MainContainer from "../components/MainContainer";
 
 const Index = () => {
     return (
-        <div>
-            <div className="navbar">
-                <A href={'/'} text={'Главная'} />
-                <A href={'/users'} text={'Пользователи'} />
+        <MainContainer keywords={"main page"}>
+            <div>
+                <h1>Главная страница</h1>
             </div>
-            <h1>Главная страница</h1>
-        </div>
+        </MainContainer>
     );
 };
 
